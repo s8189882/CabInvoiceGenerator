@@ -20,7 +20,6 @@ public class InvoiceSummary {
 			return false;
 		InvoiceSummary that = (InvoiceSummary) o;
 		return (numberOfRides == that.numberOfRides && Double.compare(totalFare, that.totalFare) == 0 && Double.compare(fareAverage, that.fareAverage) == 0);
-		
 	}
 
 	public int getNumberOfRides() {
@@ -46,6 +45,4 @@ public class InvoiceSummary {
 	public void setFareAverage(double fareAverage) {
 		this.fareAverage = fareAverage;
 	}
-
-	
 }
